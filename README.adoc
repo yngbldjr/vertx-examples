@@ -190,3 +190,8 @@ The Vert.x JCA Example project provides a JEE compliant application that enables
  [Wildfly](http://wildfly.org) application server. While simple in implementation, the link:jca-examples[JCA examples]
  provides a good point of departure for your own development.
 
+=== Sync examples
+
+The link:sync-examples/README.adoc[Vert.x Sync Examples] show how you can interact with various asynchronous APIs
+in a synchronous way, using fibers.
+
