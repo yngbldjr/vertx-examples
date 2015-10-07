@@ -34,6 +34,14 @@
     <module>shell-examples</module>
   </modules>
 
+  <repositories>
+    <repository>
+      <id>staging</id>
+      <name>staging</name>
+      <url>https://oss.sonatype.org/content/repositories/iovertx-2002</url>
+    </repository>
+  </repositories>
+
   <profiles>
     <profile>
       <!-- Use -DskipDocker as the docker module requires docker to be installed, there are built an their own profile -->

@@ -8,6 +8,14 @@
   <artifactId>sync-examples</artifactId>
   <version>3.1.0</version>
 
+  <repositories>
+    <repository>
+      <id>staging</id>
+      <name>staging</name>
+      <url>https://oss.sonatype.org/content/repositories/iovertx-2002</url>
+    </repository>
+  </repositories>
+
   <dependencies>
 
     <dependency>
@@ -81,14 +89,6 @@
       </plugins>
     </pluginManagement>
   </build>
-
-  <repositories>
-    <repository>
-      <id>oss-snapshots</id>
-      <name>oss-snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </repository>
-  </repositories>
 
   <profiles>
     <profile>

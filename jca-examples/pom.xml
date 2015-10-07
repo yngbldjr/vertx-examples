@@ -17,6 +17,14 @@
     <module>ear</module>
   </modules>
 
+  <repositories>
+    <repository>
+      <id>staging</id>
+      <name>staging</name>
+      <url>https://oss.sonatype.org/content/repositories/iovertx-2002</url>
+    </repository>
+  </repositories>
+
   <properties>
     <ear-plugin-version>2.9</ear-plugin-version>
     <war-plugin-version>2.4</war-plugin-version>

@@ -9,6 +9,14 @@
   <artifactId>maven-simplest</artifactId>
   <version>3.1.0</version>
 
+  <repositories>
+    <repository>
+      <id>staging</id>
+      <name>staging</name>
+      <url>https://oss.sonatype.org/content/repositories/iovertx-2002</url>
+    </repository>
+  </repositories>
+
   <properties>
     <!-- the main class -->
     <exec.mainClass>io.vertx.example.HelloWorldEmbedded</exec.mainClass>
